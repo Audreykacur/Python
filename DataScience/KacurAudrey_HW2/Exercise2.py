@@ -1,4 +1,4 @@
-def myFind(listOfChars):  # finds the characters in a string
+def myFind(listOfChars, Chars):  # finds the characters in a string
     occurrences = 0
     index = 0
     for x in listOfChars:
@@ -16,4 +16,4 @@ def myFind(listOfChars):  # finds the characters in a string
 listOfChars = input("Enter a string: ")  # ask user to enter a string
 # ask user to enter a single character
 Chars = input("Enter a single character you are looking for in the string: ")
-myFind(listOfChars)  # pass the string to the function myFind
+myFind(listOfChars, Chars)  # pass both strings to the function myFind
